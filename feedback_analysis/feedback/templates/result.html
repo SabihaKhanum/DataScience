@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Analysis Result</title>
+</head>
+<body>
+    <h1>Feedback Submitted</h1>
+    <p><strong>Review:</strong> {{ review.review }}</p>
+    <p><strong>Sentiment:</strong> {{ review.sentiment }}</p>
+    <a href="{% url 'home' %}">Submit another feedback</a>
+</body>
+</html>
